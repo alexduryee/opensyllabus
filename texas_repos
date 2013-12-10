@@ -1,0 +1,158 @@
+# Texas Syllabus Repositories
+
+Listing of public Texas universities and notes on programmatically locating their syllabi for initial crawling and long-term monitoring. Since each university has its own repository and structure, this is done on the university level.
+Long-term plans
+
+## Long-Term Planning
+
+Do an initial crawl and add each discovered syllabus URL to a SQLite DB
+
+Future crawls will follow the initial crawl, and compare each found URL to the DB
+
+Already crawled = do nothing
+
+New syllabus = download and add to DB
+
+## Universities and Repositories
+
+These only need to occur every 4-6 months so it's hardly onerous on servers
+(source: http://www.txhighereddata.org/Interactive/Institutionsshow.cfm?Type=1&Level=1)
+
+1. Angelo State University
+http://www.angelo.edu
+Doesn't seem centralized...
+
+2. Lamar University
+http://www.lamar.edu
+Central repo: http://sacs.lamar.edu/opa/syllabi/public/lamarsyllabi.php
+
+3. Midwestern State University
+http://www.mwsu.edu
+Central repo: http://www.mwsu.edu/profiles/viewcourses.asp
+
+4. Prairie View A&M
+http://www.pvamu.edu
+Doesn't seem centralized...
+
+5. Sam Houston State University
+http://www.shsu.edu
+Central repo: https://ww2.shsu.edu/faci10wp/
+(may take work to crawl)
+
+6. Stephen F. Austin State University
+http://www.sfasu.edu
+Doesn't seem centralized...
+
+7. Sul Ross State University
+http://www.sulross.edu
+Central repo: http://srinfo.sulross.edu/syllabi/index.php
+
+8. Tarleton State University
+http://www.tarleton.edu
+Central repo: http://catalog.tarleton.edu/syllabus/
+
+9. Texas A&M International
+http://www.tamiu.edu
+Central repo: http://info.tamiu.edu/courseslist.aspx
+
+10. Texas A&M
+http://www.tamu.edu
+
+11. Unknown (404'd)
+http://www.tamug.edu
+
+12. Texas A&M System
+http://www.tamus.edu
+
+13. Texas A&M Central Texas
+http://www.tarleton.edu/CENTRALTEXAS/
+
+14. Texas A&M Commerce
+http://www.tamuc.edu
+
+15. Texas A&M Corpus Christi
+http://www.tamucc.edu
+
+16. Texas A&M Kingsville
+http://www.tamuk.edu
+
+17. Texas A&M San Antonio
+http://www.tamuk.edu/sanantonio/
+
+18. Texas A&M Texarkana
+http://www.tamut.edu
+
+19. Texas Southern University
+http://www.tsu.edu
+
+20. Texas State University
+http://www.txstate.edu
+
+21. Texas State University System
+http://www.tsus.edu
+
+22. Texas Tech University
+http://www.ttu.edu
+
+23. Texas Tech University System
+http://www.texastech.edu
+
+24. Texas Women's University
+http://www.twu.edu
+
+25. University of Texas at Austin
+http://www.uta.edu
+
+26. University of Texas
+http://www.utexas.edu
+
+27. University of Texas at Brownsville
+http://www.utb.edu
+
+28. University of Texas at Dallas
+http://www.utdallas.edu
+
+29. University of Texas at El Paso
+http://www.utep.edu
+
+30. University of Texas at San Antonio
+http://www.utsa.edu
+
+31. University of Texas at Tyler
+http://www.uttyler.edu
+
+32. University of Texas of the Permian Basin
+http://www.utpb.edu
+
+33. University of Texas System
+http://www.utsystem.edu
+
+34. University of Texas - Pan-American
+http://www.panam.edu
+
+35. University of Houston
+http://www.uh.edu
+
+36. University of Houston System
+http://www.uhsa.uh.edu
+
+37. University of Houston - Clear Lake
+http://www.uhcl.edu
+
+38. University of Houston - Downtown
+http://www.uhd.edu
+
+39. University of Houston - Victoria
+http://www.uhv.edu
+
+40. University of North Texas
+http://www.unt.edu
+
+41. University of North Texas - Dallas
+http://www.unt.edu/unt-dallas/
+
+42. UNT Dallas School of Law
+http://www.lawschool.untsystem.edu/
+
+43. West Texas A&M
+http://www.wtamu.edu
